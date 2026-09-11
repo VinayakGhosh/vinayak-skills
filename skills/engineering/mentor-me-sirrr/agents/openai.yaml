@@ -1,0 +1,7 @@
+interface:
+  display_name: "Mentor Me Sirrr"
+  short_description: "Junior-friendly codebase mentoring"
+  default_prompt: "Use $mentor-me-sirrr to help me understand this codebase and how its pieces work together."
+
+policy:
+  allow_implicit_invocation: true

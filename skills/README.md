@@ -7,9 +7,6 @@ the `name` in `SKILL.md` must match and use lowercase hyphen-case.
 | --- | --- |
 | `engineering/` | Software delivery, code quality, architecture, and developer tooling |
 | `productivity/` | General workflows that are useful beyond codebases |
-| `misc/` | Useful skills that do not fit a stable primary category |
-| `in-progress/` | Drafts that are still being designed or tested |
-| `deprecated/` | Retired skills kept for history or migration |
 
 ## Skill anatomy
 

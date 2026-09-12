@@ -16,41 +16,30 @@ npx skills@latest add VinayakGhosh/vinayak-skills
 
 ### Mentor Me Sirrr
 
-Patient, junior-friendly codebase mentoring that explains not only what code
-does, but why it exists, where it fits in the wider system, and how the behavior
-is verified.
+Patient, junior-friendly codebase mentoring that explains what code does, why
+it exists, where it fits in the wider system, and how its behavior is verified.
+It supports repository onboarding, implementation mentoring, system deep dives,
+and cognitive reloads. Longer learning sessions follow a focused, evidence-led
+roadmap and can include optional teach-backs or visuals where they clarify a
+relationship.
 
-Use it for:
+### Docs Reconcile
 
-- onboarding to an unfamiliar repository;
-- learning while implementing a requested change;
-- understanding a component, workflow, or architecture decision;
-- taking a cognitive reload of completed changes;
-- translating technical jargon into plain language without hiding the correct
-  terminology;
-- optional teach-backs and longer learning paths;
-- charts, mind maps, and flow diagrams when relationships are easier to learn
-  visually.
-
-The skill adapts its depth to the task. Small changes receive a compact
-explanation, while larger changes include system context, data or control flow,
-trade-offs, failure behavior, code anchors, and tests.
-
-Install only Mentor Me Sirrr:
-
-```bash
-npx skills@latest add VinayakGhosh/vinayak-skills \
-  --skill mentor-me-sirrr
-```
+Evidence-led maintenance for repository Markdown that has drifted from the
+codebase. It refreshes current references, preserves plans and investigations
+as historical records, identifies contradictions between documentation and
+implementation, and links related context with clear status.
 
 ## Install options
 
-Install into the current project:
+Install a specific skill into the current project:
 
 ```bash
 npx skills@latest add VinayakGhosh/vinayak-skills \
   --skill mentor-me-sirrr
 ```
+
+Replace `mentor-me-sirrr` with `docs-reconcile` to install Docs Reconcile.
 
 Install globally for the current user:
 
@@ -60,11 +49,10 @@ npx skills@latest add VinayakGhosh/vinayak-skills \
   --global
 ```
 
-Install globally for Codex:
+Install all available skills globally for Codex:
 
 ```bash
 npx skills@latest add VinayakGhosh/vinayak-skills \
-  --skill mentor-me-sirrr \
   --agent codex \
   --global
 ```
@@ -114,6 +102,14 @@ Use mentor-me-sirrr to test my understanding of the component we just
 explored. Ask one question at a time and help me correct any gaps.
 ```
 
+### Documentation reconciliation
+
+```text
+Use docs-reconcile to review the repository's planning and architecture
+Markdown after this branch. Update evidence-backed current context, preserve
+historical findings, and report any contradictions that need a code decision.
+```
+
 ## Privacy and permissions
 
 Mentor Me Sirrr keeps learning progress in the current conversation by
@@ -131,12 +127,7 @@ sent to a public diagram renderer without explicit permission.
 skills/
   engineering/
     mentor-me-sirrr/
-      SKILL.md
-      LICENSE
-      agents/
-        openai.yaml
-      references/
-  productivity/
+    docs-reconcile/
 scripts/
   new_skill.py
   validate_skills.py
@@ -167,57 +158,34 @@ and invocation guidance.
 
 ## Update installed skills
 
-Update an installed copy:
+Update Mentor Me Sirrr:
 
 ```bash
 npx skills@latest update mentor-me-sirrr --global
 ```
 
-You can also reinstall it from this repository:
+Update Docs Reconcile:
+
+```bash
+npx skills@latest update docs-reconcile --global
+```
+
+You can also reinstall a specific skill from this repository:
 
 ```bash
 npx skills@latest add VinayakGhosh/vinayak-skills \
-  --skill mentor-me-sirrr \
+  --skill <skill-name> \
   --global
 ```
+
+Replace `<skill-name>` with `mentor-me-sirrr` or `docs-reconcile`.
 
 ## Acknowledgements
 
 Mentor Me Sirrr adapts teaching and cognitive-reload ideas from
 [`TheMovingTargets/agent-skills`](https://github.com/TheMovingTargets/agent-skills).
-The applicable upstream MIT notice is preserved in the skill's
+The applicable upstream MIT notice is preserved in the Mentor Me Sirrr skill's
 [`LICENSE`](skills/engineering/mentor-me-sirrr/LICENSE).
-
-### Docs Reconcile
-
-Evidence-led maintenance for repository Markdown that has drifted from the
-codebase. It updates current references, preserves plans and investigations as
-historical records, exposes contradictions that may be bugs, and connects
-related documents with durable links.
-
-Use it for:
-
-- refreshing README files, technical guides, and runbooks after code changes;
-- reconciling plans, analysis reports, and investigations with later work;
-- preserving incident and decision context while recording a successor or
-  outcome; and
-- identifying documentation claims that conflict with code, tests, or stated
-  intent.
-
-Install only Docs Reconcile:
-
-```bash
-npx skills@latest add VinayakGhosh/vinayak-skills \
-  --skill docs-reconcile
-```
-
-Example:
-
-```text
-Use docs-reconcile to review the repository's planning and architecture
-Markdown after this branch. Update evidence-backed current context, preserve
-historical findings, and report any contradictions that need a code decision.
-```
 
 ## License
 

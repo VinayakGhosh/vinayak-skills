@@ -30,4 +30,4 @@ Scale the ladder to the change:
 
 Begin with a change map rather than a file-by-file diff recital. Group edits by behavior or responsibility. A renamed helper and its test usually belong to one concept; unrelated changes remain separate topics.
 
-For a guided reload, pause after the overview and descend one rung at a time. Keep a mentor cursor so clarification questions do not redirect bare `continue` or `next`. End when the principal changed flow and at least one code or test anchor have been explored, or when the learner chooses to pause.
+For a guided reload, use the reload ladder as the roadmap and follow the [shared mentor loop](../SKILL.md#mentor-loop). Mark the reload complete when the requested changed behavior and relevant code or test anchors have been explored, then follow the [shared closing guidance](../SKILL.md#finish-or-pause).

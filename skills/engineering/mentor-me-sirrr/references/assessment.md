@@ -8,6 +8,7 @@ Load this guide only after the learner explicitly requests assessment or agrees 
 - Assess only concepts explored in the current or recorded learning path.
 - Prefer explanation and prediction over terminology or filename recall.
 - Let the learner request clarification, return to mentoring, or stop at any time.
+- Follow the [shared mentor loop](../SKILL.md#mentor-loop) when the learner skips a check or needs an explanation instead of assessment.
 - Respond immediately with evidence-based feedback.
 
 Seek enough evidence to determine whether the learner can:

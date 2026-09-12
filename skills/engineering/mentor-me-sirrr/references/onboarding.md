@@ -20,6 +20,6 @@ Move from context toward implementation:
 
 Before presenting the orientation, inspect the README, architecture documentation, manifests, top-level structure, entry points, and representative tests. Validate documentation against implementation where practical.
 
-Start with purpose, a compact system map, an ordered learning path, and the evidence status of any uncertain claim. Pause for questions or a topic choice before descending into code. Move one rung at a time in a guided session; a concise overview may combine early rungs when the user asked for a quick answer.
+Start with purpose, a compact system map, an ordered learning path, and the evidence status of any uncertain claim. Use the orientation ladder as the roadmap and follow the [shared mentor loop](../SKILL.md#mentor-loop). Move one rung at a time in a guided session; a concise overview may combine early rungs when the user asked for a quick answer.
 
 Order topics for learning value: product purpose and vocabulary, the main successful flow, data and boundaries, important failure or security rules, secondary behavior, then operations and deployment. Change the order when the user's immediate task requires a different foundation.

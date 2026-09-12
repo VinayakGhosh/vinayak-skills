@@ -188,6 +188,37 @@ Mentor Me Sirrr adapts teaching and cognitive-reload ideas from
 The applicable upstream MIT notice is preserved in the skill's
 [`LICENSE`](skills/engineering/mentor-me-sirrr/LICENSE).
 
+### Docs Reconcile
+
+Evidence-led maintenance for repository Markdown that has drifted from the
+codebase. It updates current references, preserves plans and investigations as
+historical records, exposes contradictions that may be bugs, and connects
+related documents with durable links.
+
+Use it for:
+
+- refreshing README files, technical guides, and runbooks after code changes;
+- reconciling plans, analysis reports, and investigations with later work;
+- preserving incident and decision context while recording a successor or
+  outcome; and
+- identifying documentation claims that conflict with code, tests, or stated
+  intent.
+
+Install only Docs Reconcile:
+
+```bash
+npx skills@latest add VinayakGhosh/vinayak-skills \
+  --skill docs-reconcile
+```
+
+Example:
+
+```text
+Use docs-reconcile to review the repository's planning and architecture
+Markdown after this branch. Update evidence-backed current context, preserve
+historical findings, and report any contradictions that need a code decision.
+```
+
 ## License
 
 This repository is licensed under the [MIT License](LICENSE).

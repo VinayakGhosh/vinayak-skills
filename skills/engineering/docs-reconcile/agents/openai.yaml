@@ -1,0 +1,7 @@
+interface:
+  display_name: "Docs Reconcile"
+  short_description: "Refresh repository Markdown with evidence"
+  default_prompt: "Use $docs-reconcile to update this repository's Markdown so it reflects the current codebase while preserving useful historical context."
+
+policy:
+  allow_implicit_invocation: true
